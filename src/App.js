@@ -71,6 +71,14 @@ const App = ({ signOut }) => {
 
   return (
     <View className="App">
+    <br></br>
+    <br></br>
+    <br></br>
+      <iframe title="Report Section" width="800" height="400" src="https://app.powerbi.com/view?r=eyJrIjoiNmU0NmVlNmMtZGMwZi00MjE3LWFjNTItY2EzMDJlN2ZjMDlkIiwidCI6ImIyYmI3MzFjLTQ2MGQtNDIwZi1hNDc1LTNlZDYxNWE4Mjk4NyIsImMiOjh9" frameborder="0" allowFullScreen="true"></iframe>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
       <Heading level={1}>My Notes App</Heading>
       <View as="form" margin="3rem 0" onSubmit={createNote}>
         <Flex direction="row" justifyContent="center">
