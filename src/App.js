@@ -103,7 +103,7 @@ export default function App() {
                       justifyContent="flex-start">
                       <TabItem title="Project 1">
                         <br></br>
-                        <iframe title="Report Section" width="800" height="400" src="https://app.powerbi.com/view?r=eyJrIjoiNmU0NmVlNmMtZGMwZi00MjE3LWFjNTItY2EzMDJlN2ZjMDlkIiwidCI6ImIyYmI3MzFjLTQ2MGQtNDIwZi1hNDc1LTNlZDYxNWE4Mjk4NyIsImMiOjh9" frameborder="0" allowFullScreen="true"></iframe>
+                        <iframe title="Report Section" width="800" height="400" src="https://app.powerbi.com/view?r=eyJrIjoiNjIyN2JhMDEtZTY3NS00MDM1LWFkMWQtZGYxZWIyYWIwMmE5IiwidCI6ImIyYmI3MzFjLTQ2MGQtNDIwZi1hNDc1LTNlZDYxNWE4Mjk4NyIsImMiOjh9" frameborder="0" allowFullScreen="true"></iframe>
                       </TabItem>
                       <TabItem title="Project 2">
                         <br></br>
