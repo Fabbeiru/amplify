@@ -50,7 +50,7 @@ export default function NoteUpdateForm(props) {
       const record = idProp
         ? (
             await API.graphql({
-              query: getNote,
+              query: getNote.replaceAll("__typename", ""),
               variables: { id: idProp },
             })
           )?.data?.getNote
@@ -124,7 +124,7 @@ export default function NoteUpdateForm(props) {
             }
           });
           await API.graphql({
-            query: updateNote,
+            query: updateNote.replaceAll("__typename", ""),
             variables: {
               input: {
                 id: noteRecord.id,

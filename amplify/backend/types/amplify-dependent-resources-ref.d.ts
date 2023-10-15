@@ -10,6 +10,7 @@ export type AmplifyDependentResourcesAttributes = {
     "amplify6b68ae4d": {
       "AppClientID": "string",
       "AppClientIDWeb": "string",
+      "CreatedSNSRole": "string",
       "IdentityPoolId": "string",
       "IdentityPoolName": "string",
       "UserPoolArn": "string",

@@ -103,7 +103,7 @@ export default function NoteCreateForm(props) {
             }
           });
           await API.graphql({
-            query: createNote,
+            query: createNote.replaceAll("__typename", ""),
             variables: {
               input: {
                 ...modelFields,
