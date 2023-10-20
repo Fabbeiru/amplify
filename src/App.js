@@ -33,8 +33,8 @@ const components = {
     return (
       <View textAlign="center" padding={tokens.space.large}>
         <Image
-          alt="DORS logo"
-          src={require("./DORS.png")}
+          alt="Logo"
+          src={require("./Icon.png")}
         />
       </View>
     );
@@ -88,8 +88,8 @@ export default function App() {
               <>
                 <div className='header'>
                   <Image
-                    alt="DORS mini logo"
-                    src={require("./DORSMini.png")}
+                    alt="Logo"
+                    src={require("./Icon.png")}
                   />
                   <div className='user-info'>
                     <p>{user.username}</p>
@@ -107,31 +107,20 @@ export default function App() {
                       </TabItem>
                       <TabItem title="Project 2">
                         <br></br>
-                        <iframe title="Report Section" width="800" height="400" src="https://app.powerbi.com/view?r=eyJrIjoiNmU0NmVlNmMtZGMwZi00MjE3LWFjNTItY2EzMDJlN2ZjMDlkIiwidCI6ImIyYmI3MzFjLTQ2MGQtNDIwZi1hNDc1LTNlZDYxNWE4Mjk4NyIsImMiOjh9" frameborder="0" allowFullScreen="true"></iframe>
+                        <iframe title="Report Section" width="800" height="400" src="https://app.powerbi.com/view?r=eyJrIjoiYmYzNDQ4OGYtMzgyNC00NTQ1LWE2NmUtZTY4YTQyZjlhZmU1IiwidCI6ImYxMmZjYWNmLTM0YjEtNDk1OS1iODk3LWIxMGU0MjZkZTQzOCIsImMiOjl9" frameborder="0" allowFullScreen="true"></iframe>
                       </TabItem>
                     </Tabs>
                   </section>
                   <section className='under-dev'>
-                    <div>
-                      <h2>Web Camera</h2>
-                      <Image
-                        className='under-icon'
-                        alt="Under construction icon"
-                        src={require("./pickaxe.png")}
-                      />
-                      <p>Currently under construction.</p>
-                    </div>
-                    <div>
-                      <h2>Telemetry Access</h2>
-                      <Image
-                        className='under-icon'
-                        alt="Under construction icon"
-                        src={require("./pickaxe.png")}
-                      />
-                      <p>Currently under construction.</p>
-                    </div>
+                    <a href='#' target='_blank'>
+                      <h2>
+                        Security Camera
+                        <svg xmlns="http://www.w3.org/2000/svg" fill='currentColor' height="24" viewBox="0 -960 960 960" width="24"><path d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h560v-280h80v280q0 33-23.5 56.5T760-120H200Zm188-212-56-56 372-372H560v-80h280v280h-80v-144L388-332Z"/></svg>
+                      </h2>
+                    </a>
                   </section>
                 </main>
+                <footer>Powered by Soiltechs</footer>
               </>
             )}
           </Authenticator>

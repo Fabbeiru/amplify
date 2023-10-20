@@ -47,29 +47,31 @@ main .under-dev {
   gap: 25px;
 }
 
-main div {
-  width: 100%;
+main a {
+  width: 60%;
 }
 
-h2 {
-  width: 100%;
+.under-dev a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 200px;
+  text-decoration: none;
+}
+
+.under-dev h2 {
+  width: 50%;
   font-size: 22px;
   color: white;
   text-align: center;
   padding: 5px;
   background-color: #737ec3;
-}
-
-main .under-dev div {
   display: flex;
   align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  margin-bottom: 150px;
+  justify-content: space-around;
+  border-radius: 15px;
 }
 
-main .under-icon {
-  width: 70px;
-  height: 70px;
-  margin-top: 50px;
+.under-dev svg {
+  color: white;
 }
