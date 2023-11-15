@@ -11,12 +11,12 @@ body {
   align-items: center;
   justify-content: space-between;
   gap: 10px;
-  padding: 10px 20px;
-  background-color: #737ec3;
+  padding: 15px 20px;
+  background-color: #737ec370;
 }
 
 .header img {
-  width: 55px;
+  width: 155px;
 }
 
 .user-info {
@@ -27,7 +27,6 @@ body {
 
 .user-info p {
   margin: 0 10px 0 0;
-  color: white;
 }
 
 main {

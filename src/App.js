@@ -34,7 +34,8 @@ const components = {
       <View textAlign="center" padding={tokens.space.large}>
         <Image
           alt="Logo"
-          src={require("./Icon.png")}
+          src={require("./Tauw.png")}
+          width="75%"
         />
       </View>
     );
@@ -89,7 +90,7 @@ export default function App() {
                 <div className='header'>
                   <Image
                     alt="Logo"
-                    src={require("./Icon.png")}
+                    src={require("./Tauw.png")}
                   />
                   <div className='user-info'>
                     <p>{user.username}</p>
