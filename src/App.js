@@ -104,11 +104,11 @@ export default function App() {
                       justifyContent="flex-start">
                       <TabItem title="Fuenlabrada">
                         <br></br>
-                        <iframe title="Report Section" width="800" height="400" src="https://app.powerbi.com/view?r=eyJrIjoiNjlkMDE5YWQtNGZjNy00YWRjLWJmNmYtMDE3MWM4ZWQ0M2IxIiwidCI6ImYxMmZjYWNmLTM0YjEtNDk1OS1iODk3LWIxMGU0MjZkZTQzOCIsImMiOjl9" frameborder="0" allowFullScreen="true"></iframe>
+                        <iframe title="Report Section" width="800" height="400" src="https://app.powerbi.com/view?r=eyJrIjoiMWRiOTgyOTgtM2FlNy00ZmM3LWE4NDgtMTczMWJlYzI2ODkxIiwidCI6ImYxMmZjYWNmLTM0YjEtNDk1OS1iODk3LWIxMGU0MjZkZTQzOCIsImMiOjl9" frameborder="0" allowFullScreen="true"></iframe>
                       </TabItem>
                       <TabItem title="Getafe">
                         <br></br>
-                        <iframe title="Report Section" width="800" height="400" src="https://app.powerbi.com/view?r=eyJrIjoiYmYzNDQ4OGYtMzgyNC00NTQ1LWE2NmUtZTY4YTQyZjlhZmU1IiwidCI6ImYxMmZjYWNmLTM0YjEtNDk1OS1iODk3LWIxMGU0MjZkZTQzOCIsImMiOjl9" frameborder="0" allowFullScreen="true"></iframe>
+                        <iframe title="Report Section" width="800" height="400" src="https://app.powerbi.com/view?r=eyJrIjoiNDBhNTM1YzktNzY2NS00ZmFlLThkODYtZGIyYThiYmMzNjkyIiwidCI6ImYxMmZjYWNmLTM0YjEtNDk1OS1iODk3LWIxMGU0MjZkZTQzOCIsImMiOjl9" frameborder="0" allowFullScreen="true"></iframe>
                       </TabItem>
                     </Tabs>
                   </section>
