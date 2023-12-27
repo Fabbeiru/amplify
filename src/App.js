@@ -108,7 +108,7 @@ export default function App() {
                       </TabItem>
                       <TabItem title="Getafe">
                         <br></br>
-                        <iframe title="Report Section" width="800" height="400" src="https://app.powerbi.com/view?r=eyJrIjoiNDBhNTM1YzktNzY2NS00ZmFlLThkODYtZGIyYThiYmMzNjkyIiwidCI6ImYxMmZjYWNmLTM0YjEtNDk1OS1iODk3LWIxMGU0MjZkZTQzOCIsImMiOjl9" frameborder="0" allowFullScreen="true"></iframe>
+                        <iframe title="Report Section" width="800" height="400" src="https://app.powerbi.com/view?r=eyJrIjoiOTAzZjk4YjgtMTczMC00N2JhLWE4YjEtOTBlZjM1MjNkMmE2IiwidCI6ImYxMmZjYWNmLTM0YjEtNDk1OS1iODk3LWIxMGU0MjZkZTQzOCIsImMiOjl9" frameborder="0" allowFullScreen="true"></iframe>
                       </TabItem>
                     </Tabs>
                   </section>
