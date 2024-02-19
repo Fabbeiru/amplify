@@ -114,6 +114,10 @@ export default function App() {
                         <br></br>
                         <iframe title="Pozuelo Report Section" width="800" height="400" src="https://app.powerbi.com/view?r=eyJrIjoiYjEwNzg1NjUtNjAwMS00MDlhLThlZDItYzQwNjJkMmM5ODJhIiwidCI6ImYxMmZjYWNmLTM0YjEtNDk1OS1iODk3LWIxMGU0MjZkZTQzOCIsImMiOjl9" frameborder="0" allowFullScreen="true"></iframe>
                       </TabItem>
+                      <TabItem title="Palacios">
+                        <br></br>
+                        <iframe title="Palacios Report Section" width="800" height="400" src="https://app.powerbi.com/view?r=eyJrIjoiNGY4YWQyYTEtMGE0NC00MjMyLWI4YjEtZDc1MzcwMTY5MWI1IiwidCI6ImYxMmZjYWNmLTM0YjEtNDk1OS1iODk3LWIxMGU0MjZkZTQzOCIsImMiOjl9" frameborder="0" allowFullScreen="true"></iframe>
+                      </TabItem>
                     </Tabs>
                   </section>
                   <section className='under-dev'>
