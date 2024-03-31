@@ -122,6 +122,10 @@ export default function App() {
                         <br></br>
                         <iframe title="Aranda Report Section" width="800" height="400" src="https://app.powerbi.com/view?r=eyJrIjoiNDM1YTMwMmItNDgwMy00ZWY1LTllMmItMWIxODUxZmFjZGMwIiwidCI6ImYxMmZjYWNmLTM0YjEtNDk1OS1iODk3LWIxMGU0MjZkZTQzOCIsImMiOjl9" frameborder="0" allowFullScreen="true"></iframe>
                       </TabItem>
+                      <TabItem title="Takasago">
+                        <br></br>
+                        <iframe title="Takasago Report Section" width="800" height="400" src="https://app.powerbi.com/view?r=eyJrIjoiNjk3YWMyOTktNDU0NS00NDEzLTkwMzQtYTExY2M4Nzc3MjE0IiwidCI6ImYxMmZjYWNmLTM0YjEtNDk1OS1iODk3LWIxMGU0MjZkZTQzOCIsImMiOjl9" frameborder="0" allowFullScreen="true"></iframe>
+                      </TabItem>
                     </Tabs>
                   </section>
                   <section className='under-dev'>
