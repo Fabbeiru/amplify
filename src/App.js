@@ -126,6 +126,12 @@ export default function App() {
                         <br></br>
                         <iframe title="Takasago Report Section" width="800" height="400" src="https://app.powerbi.com/view?r=eyJrIjoiNjk3YWMyOTktNDU0NS00NDEzLTkwMzQtYTExY2M4Nzc3MjE0IiwidCI6ImYxMmZjYWNmLTM0YjEtNDk1OS1iODk3LWIxMGU0MjZkZTQzOCIsImMiOjl9" frameborder="0" allowFullScreen="true"></iframe>
                       </TabItem>
+                      {user && user.username === 'test_user' && (
+                        <TabItem title="AutReportTEST">
+                          <br></br>
+                          <iframe title="" width="800" height="400" src="https://mybinder.org/v2/gh/Evnazx/AutoReportDORSTest/HEAD?labpath=ReportTest.ipynb" frameborder="0" allowFullScreen="true"></iframe>
+                        </TabItem>
+                      )}
                     </Tabs>
                   </section>
                   <section className='under-dev'>
