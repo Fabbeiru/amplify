@@ -121,6 +121,7 @@ export default function App() {
                 <main>
                   <section>
                     <h2>Reports</h2>
+                    <Button variation="primary" size='small' onClick={handlePrint}>Print Report</Button>
                     <Tabs
                       justifyContent="flex-start">
                       <TabItem title="Fuenlabrada">
