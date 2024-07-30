@@ -13,7 +13,7 @@ import {
 } from "@aws-amplify/ui-react";
 import { Amplify } from 'aws-amplify';
 import awsExports from './aws-exports';
-import html2canvas from 'html2canvas';
+
 
 Amplify.configure(awsExports);
 
@@ -77,26 +77,6 @@ const components = {
   },
 };
 
-const handlePrint = () => {
-  const iframe = document.querySelector('iframe[title*="Report Section"]');
-  if (iframe) {
-    html2canvas(iframe.contentWindow.document.body).then(canvas => {
-      const imgData = canvas.toDataURL('image/png');
-      const printWindow = window.open('', '_blank');
-      printWindow.document.write('<html><head><title>Print Report</title></head><body>');
-      printWindow.document.write(`<img src="${imgData}" style="width:100%">`);
-      printWindow.document.write('</body></html>');
-      printWindow.document.close();
-      printWindow.onload = function () {
-        printWindow.print();
-        printWindow.close();
-      };
-    });
-  } else {
-    alert('No report found to print.');
-  }
-};
-
 export default function App() {
   return (
       <>
@@ -121,7 +101,6 @@ export default function App() {
                 <main>
                   <section>
                     <h2>Reports</h2>
-                    <Button variation="primary" size='small' onClick={handlePrint}>Print Report</Button>
                     <Tabs
                       justifyContent="flex-start">
                       <TabItem title="Fuenlabrada">
